@@ -54,7 +54,7 @@
             />
 
         <Button
-            android:id="@+id/text_demo3"
+            android:id="@+id/text_dim_system_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18dp"

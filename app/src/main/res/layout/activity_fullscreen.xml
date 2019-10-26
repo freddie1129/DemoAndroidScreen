@@ -6,14 +6,28 @@
     android:background="@drawable/brisbane"
     android:id="@+id/frameLayout_top"
     android:fitsSystemWindows="true"
+
     tools:context=".FullscreenActivity">
+
+
+    <View
+        android:id="@+id/button_hit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="top"
+
+        android:background="@color/colorPrimary"
+        />
 
     <ToggleButton
         android:id="@+id/button_hit_me"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="true"
         android:text="Hit Me"
-        android:layout_gravity="center"/>
+        android:textOff="Hide status bar"
+        android:textOn="Show status bar" />
 
 
 

@@ -18,5 +18,9 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this, FullscreenActivity::class.java)
             startActivity(intent)
         }
+        text_dim_system_bar.setOnClickListener {
+            var intent = Intent(this, DimSystemBarActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
