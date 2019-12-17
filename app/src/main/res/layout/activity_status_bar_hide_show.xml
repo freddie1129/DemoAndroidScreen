@@ -4,30 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/brisbane"
-    android:id="@+id/frameLayout_top"
-    android:fitsSystemWindows="true"
+    android:id="@+id/frameLayout_screen"
+    android:fitsSystemWindows="false"
+    tools:context=".StatusBarHideShowActivity">
 
-    tools:context=".FullscreenActivity">
 
 
-    <View
-        android:id="@+id/button_hit"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_gravity="top"
-
-        android:background="@color/colorPrimary"
-        />
 
     <ToggleButton
         android:id="@+id/button_hit_me"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:checked="true"
+        android:checked="false"
         android:text="Hit Me"
-        android:textOff="Hide status bar"
-        android:textOn="Show status bar" />
+        android:textOff="Show status bar"
+        android:textOn="Hide status bar"
+        android:textAllCaps="false"/>
 
 
 

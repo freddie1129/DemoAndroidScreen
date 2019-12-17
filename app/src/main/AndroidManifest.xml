@@ -9,16 +9,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DimSystemBarActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+
         <activity
-            android:name=".ActionBarOverLayActivity"
-            android:theme="@style/AppTheme.ActionBarOverLayTheme"></activity>
+            android:name=".ActionBarHideShowActivity"
+            android:theme="@style/AppTheme.ActionBarOverLayTheme"
+            android:parentActivityName=".MainActivity"/>
         <activity
-            android:name=".FullscreenActivity"
+            android:name=".StatusBarHideShowActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_fullscreen"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".NavigationBarHideShowActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".LeanBackActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".ImmersiveActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".StickyImmersiveActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

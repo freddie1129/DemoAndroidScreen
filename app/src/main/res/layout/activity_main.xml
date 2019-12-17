@@ -12,53 +12,115 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:divider="@color/colorPrimary"
-        android:dividerPadding="0dp"
         android:showDividers="middle"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:layout_gravity="center_vertical"
+        android:paddingTop="16dp"
         >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Info: Demo for action Bar Overlay mode"/>
+            android:text="Hide or show action bar, application's content to appear behind the action bar."/>
         <Button
-            android:id="@+id/text_action_overlay"
+            android:id="@+id/text_action_bar_hide_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Start Test"
+            android:text="Show Demo"
+            android:textAllCaps="false"
             android:textSize="18dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:layout_marginBottom="32dp"
+           
          />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Info: Demo for full screen activity"/>
+            android:layout_marginTop="16dp"
+            android:text="Hide or show status bar, application's content to appear behind the status bar."/>
         <Button
-            android:id="@+id/text_fullscreen"
+            android:id="@+id/text_status_bar_hide_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18dp"
-            android:text="Start Test"
+            android:text="Show Demo"
+            android:textAllCaps="false"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Hide or navigation bar, application's content to appear behind the status bar."/>
         <Button
-            android:id="@+id/text_dim_system_bar"
+            android:id="@+id/text_navigation_bar_hide_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18dp"
-            android:text="Hello World!"
+            android:text="Show Demo"
+            android:textAllCaps="false"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Lean back fullscreen activity."/>
+        <Button
+            android:id="@+id/button_lean_back_fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Show Demo"
+            android:textAllCaps="false"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Immersive fullscreen activity."/>
+        <Button
+            android:id="@+id/button_immersive_fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Show Demo"
+            android:textAllCaps="false"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sticky immersive fullscreen activity."/>
+        <Button
+            android:id="@+id/button_sticky_immersive_fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Show Demo"
+            android:textAllCaps="false"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:paddingLeft="10dp"
